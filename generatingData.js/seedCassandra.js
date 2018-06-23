@@ -3,7 +3,6 @@ CREATE KEYSPACE listing_moduleOptimize WITH replication = {"class": "SimpleStrat
 USE listing_moduleOptimize;
 
 
-
 CREATE TABLE listingoverviewtble(
   id INT,
   summary text,
