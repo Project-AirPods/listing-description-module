@@ -1,7 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
+const newrelic = require('newrelic');
 const db = require('../database/index.js');
+// have the different db (cassandra/ postgres) methods here; then have options for each
 
 const app = express();
 
