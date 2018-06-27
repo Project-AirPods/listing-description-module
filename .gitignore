@@ -29,3 +29,9 @@ coverage
 build/
 dist/
 
+generatingData.js/refAmenities.csv
+generatingData.js/tbleAmenities.csv
+generatingData.js/tbleListingOverview.csv
+generatingData.js/tblePictograms.csv
+generatingData.js/tbleSleepingArrangements.csv
+
