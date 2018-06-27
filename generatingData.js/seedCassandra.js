@@ -1,6 +1,7 @@
-DROP KEYSPACE listing_moduleOptimize
-CREATE KEYSPACE listing_moduleOptimize WITH replication = {"class": "SimpleStrategy", "replication_factor" : 1};
-USE listing_moduleOptimize;
+CREATE KEYSPACE listing_module WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 2};
+
+USE listing_module;
+
 
 
 CREATE TABLE listingoverviewtble(
